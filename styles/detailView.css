@@ -1,0 +1,98 @@
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 736px) {
+  #detailView {
+    flex-direction: column;
+  }
+  #viewContent {
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+@media only screen
+  and (min-device-width: 736px) {
+  #detailView img {
+    float: left;
+    vertical-align: middle;
+  }
+}
+
+#viewContent {
+  padding: 10px 10px 10px 0;
+}
+
+#detailView {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.close {
+  cursor: pointer;
+  height: 20px !important;
+  width: 20px !important;
+  margin: 0 !important;
+}
+
+#viewContent img {
+  height: 100%;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+#viewContent h1, #viewContent h2, #overview h2 {
+  margin-bottom: 0;
+}
+
+#viewContent h2 {
+  margin-top: 0;
+}
+
+#filmstart, #videoCarousel {
+  margin: 10px 0;
+}
+
+#overview div {
+  text-align: justify;
+}
+
+#videoCarousel img {
+  height: auto;
+  float: none;
+}
+
+#videoCarousel img:hover {
+  cursor: pointer;
+}
+
+.previewVideo {
+  margin-top: 10px;
+}
+
+#videoPlayer {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+#videoPlayer #video {
+  display: block;
+  width: 100%;
+  height: 95%;
+  margin: 0 auto;
+  border-width: 0;
+  align-self: center;
+}
+
+#genreList div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#genreList div .genreItem {
+  background-color: #1e2f3c;
+  color: #ffffff;
+  padding: 4px 9px;
+  border-radius: 10px;
+  margin: 0 5px 5px 0;
+}

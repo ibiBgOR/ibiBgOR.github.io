@@ -1,0 +1,14 @@
+/* transition: [property] [duration] [timing-function] [delay]; */
+
+.imageFadeIn {
+  transform: translateY(0%);
+  opacity: 1.0;
+}
+
+.hoverTransition {
+  transition: transform .2s ease-in-out;
+}
+
+.hoverTransition:hover {
+  transform: scale(1.1);
+}
